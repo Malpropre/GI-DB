@@ -1551,7 +1551,7 @@
                                 });
                         },
                         loadLocalComments: function () {
-                            return fetch("/json/comments-".concat(this.selectedMarker.id, ".json"))
+                            return fetch("//genshin-impact-map.appsample.com/json/comments-".concat(this.selectedMarker.id, ".json"))
                                 .then(function (n) {
                                     return n.json();
                                 })
