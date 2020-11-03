@@ -875,7 +875,7 @@
                             Object(t["k"])(
                                 "button",
                                 {
-                                    class: "btn-light left-toggle position-absolute d-none d-lg-block text-center text-primary border-0",
+                                    class: "btn-light left-toggle position-absolute d-lg-block text-center text-primary border-0",
                                     onClick:
                                         o[1] ||
                                         (o[1] = function (n) {
