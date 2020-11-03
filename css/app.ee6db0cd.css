@@ -8957,12 +8957,12 @@ a[rel="noopener"] {
  transition: left 0.3s ease;
  z-index: 1040;
  padding-top: 6.8rem;
- padding-bottom: 280px;
+ padding-bottom: 0;
 }
 @media (max-width: 991.98px) {
  #sidebar {
   bottom: auto;
-  height: 350px;
+  height: 100vh;
   padding-bottom: 0;
  }
  #sidebar .tab-content {
@@ -8972,6 +8972,7 @@ a[rel="noopener"] {
 @media (max-width: 575.98px) {
  #sidebar {
   width: 100% !important;
+  height: 350px;
  }
 }
 #sidebar.bottom-collapsed {
