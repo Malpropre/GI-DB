@@ -310,7 +310,7 @@
                                         n.addMessage({
                                             style: "danger",
                                             title: "UPDATE",
-                                            body: 'There is a new version of the map.<br><a href="'.concat("https://genshin-impact-map.appsample.com", '"><u>Click here to reload page.</u></a>'),
+                                            body: 'There is a new version of the map.<br><a href="'.concat("//gi-db.blogspot.com/p/world-map.html", '"><u>Click here to reload page.</u></a>'),
                                             expires: n.timeframe / 1e3,
                                         });
                                 });
@@ -346,7 +346,7 @@
                 [
                     Object(t["k"])("p", null, "This is a pre-release version of Genshin Impact World Map."),
                     Object(t["k"])("p", null, "For stable release, please visit:"),
-                    Object(t["k"])("p", null, [Object(t["k"])("a", { class: "font-weight-bold text-danger", href: "https://genshin-impact-map.appsample.com" }, "https://genshin-impact-map.appsample.com")]),
+                    Object(t["k"])("p", null, [Object(t["k"])("a", { class: "font-weight-bold text-danger", href: "//gi-db.blogspot.com/p/world-map.html" }, "//gi-db.blogspot.com/p/world-map.html")]),
                 ],
                 -1
             ),
@@ -741,7 +741,7 @@
                         return t < 5
                             ? (console.log(e),
                               void V.get("gim-local-markers").then(function (t) {
-                                  t && Array.isArray(t.markerIds) ? t.markerIds.includes(e) || t.markerIds.push(e) : (t = { ver: 1, by: "genshin-impact-map.appsample.com", markerIds: [e] }),
+                                  t && Array.isArray(t.markerIds) ? t.markerIds.includes(e) || t.markerIds.push(e) : (t = { ver: 1, by: "gi-db.blogspot.com", markerIds: [e] }),
                                       V.set("gim-local-markers", t).then(function () {
                                           n.$store.commit("user/addUserData", { localMarkers: e }),
                                               n.addMessage({ style: "warning", body: "Location #".concat(e, " has been marked as found and SAVED LOCALLY IN BROWSER."), expires: 5 }),
@@ -990,7 +990,7 @@
                 name: "Header",
                 components: { SelectLang: wn },
                 data: function () {
-                    return { url: "https://genshin-impact-map.appsample.com" };
+                    return { url: "//gi-db.blogspot.com/p/world-map.html" };
                 },
             };
         e("7d19");
@@ -1475,7 +1475,7 @@
                     {},
                     {
                         shareUrl: function () {
-                            return this.selectedMarker ? "https://genshin-impact-map.appsample.com/#/?type=" + this.selectedMarker.type + "&id=" + this.selectedMarker.id : "";
+                            return this.selectedMarker ? "//gi-db.blogspot.com/p/world-map.html/#/?type=" + this.selectedMarker.type + "&id=" + this.selectedMarker.id : "";
                         },
                     }
                 ),
