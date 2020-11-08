@@ -310,7 +310,7 @@
                                         n.addMessage({
                                             style: "danger",
                                             title: "UPDATE",
-                                            body: 'There is a new version of the map.<br><a href="'.concat("//gi-db.blogspot.com/p/world-map.html", '"><u>Click here to reload page.</u></a>'),
+                                            body: 'There is a new version of the map.<br><a href="'.concat("https://gi-db.blogspot.com/p/world-map.html", '"><u>Click here to reload page.</u></a>'),
                                             expires: n.timeframe / 1e3,
                                         });
                                 });
@@ -346,7 +346,7 @@
                 [
                     Object(t["k"])("p", null, "This is a pre-release version of Genshin Impact World Map."),
                     Object(t["k"])("p", null, "For stable release, please visit:"),
-                    Object(t["k"])("p", null, [Object(t["k"])("a", { class: "font-weight-bold text-danger", href: "//gi-db.blogspot.com/p/world-map.html" }, "//gi-db.blogspot.com/p/world-map.html")]),
+                    Object(t["k"])("p", null, [Object(t["k"])("a", { class: "font-weight-bold text-danger", href: "https://gi-db.blogspot.com/p/world-map.html" }, "https://gi-db.blogspot.com/p/world-map.html")]),
                 ],
                 -1
             ),
@@ -990,7 +990,7 @@
                 name: "Header",
                 components: { SelectLang: wn },
                 data: function () {
-                    return { url: "//gi-db.blogspot.com/p/world-map.html" };
+                    return { url: "https://gi-db.blogspot.com/p/world-map.html" };
                 },
             };
         e("7d19");
@@ -1475,7 +1475,7 @@
                     {},
                     {
                         shareUrl: function () {
-                            return this.selectedMarker ? "//gi-db.blogspot.com/p/world-map.html/#/?type=" + this.selectedMarker.type + "&id=" + this.selectedMarker.id : "";
+                            return this.selectedMarker ? "https://gi-db.blogspot.com/p/world-map.html#/?type=" + this.selectedMarker.type + "&id=" + this.selectedMarker.id : "";
                         },
                     }
                 ),
